@@ -1,0 +1,57 @@
+.body {
+  margin: 90px 30% 20px;
+}
+
+h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .body {
+    margin: 90px 20% 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .body {
+    margin: 90px 30px 20px;
+  }
+}
+
+p {
+  font-size: 21px;
+  margin-top: 50px;
+  text-align: justify;
+  word-wrap: break-word; /* Force break the words */
+  overflow-wrap: break-word; /* Handle non-space characters */
+}
+
+p li {
+  font-size: 21px;
+  word-wrap: break-word; /* Force break the words */
+  overflow-wrap: break-word; /* Handle non-space characters */
+}
+
+img {
+  max-width: 100%;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.image-label {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: -30px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: -40px;
+}
